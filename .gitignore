@@ -1,0 +1,18 @@
+# Ignore Python cache and virtualenv
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+env/
+venv/
+
+# Ignore Streamlit app state
+.streamlit/
+
+# Ignore your sensitive launcher
+run_app.bat
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
